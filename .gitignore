@@ -1,0 +1,11 @@
+*
+!.gitignore
+!README.md
+!agent/
+!embedding/
+!generation/
+!retrieval/
+!agent/**
+!embedding/**
+!generation/**
+!retrieval/**
