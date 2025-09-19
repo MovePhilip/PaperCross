@@ -1,0 +1,1110 @@
+{
+ "Code Generation": {
+  "rank_num": 3,
+  "dataset_list": [
+   "WikiSQL",
+   "Django",
+   "WikiSQL"
+  ],
+  "paper_list": [
+   "1804.09769",
+   "1810.02720",
+   "1910.07179",
+   "2202.13972",
+   "1804.08338",
+   "1709.00103",
+   "2101.00259",
+   "1803.02400",
+   "1603.06744"
+  ],
+  "note": "WikiSQL：文本 → SQL 查询。Django：自然语言 → Django 代码。",
+  "question": "Find all papers that have either explicitly proposed methods for the Code Generation task, or have introduced methods that can be effectively applied to the Code Generation task (like SQL, Python, Java, etc.). Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Human Keypoint Detection": {
+  "rank_num": 12,
+  "dataset_list": [
+   "COCO test-dev",
+   "COCO test-challenge",
+   "COCO test-dev",
+   "COCO test-dev",
+   "COCO test-dev",
+   "COCO test-dev",
+   "COCO test-challenge",
+   "COCO test-challenge",
+   "COCO test-challenge",
+   "COCO test-challenge",
+   "COCO test-challenge",
+   "COCO test-challenge"
+  ],
+  "paper_list": [
+   "1911.07451",
+   "1903.06593",
+   "1901.00148",
+   "1711.07319",
+   "1611.08050",
+   "1804.06208",
+   "1703.06870",
+   "1611.05424",
+   "2103.02440",
+   "1911.10529",
+   "2003.04030",
+   "1701.01779"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Human Keypoint Detection task, or have introduced methods that can be effectively applied to the Human Keypoint Detection task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "RGB Salient Object Detection": {
+  "rank_num": 5,
+  "dataset_list": [
+   "ECSSD",
+   "HKU-IS",
+   "PASCAL-S",
+   "PASCAL-S",
+   "DUT-OMRON"
+  ],
+  "paper_list": [
+   "1904.08739",
+   "2112.07380",
+   "2110.11887",
+   "2005.09007",
+   "1904.09569",
+   "1904.01169"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the RGB Salient Object Detection task, or have introduced methods that can be effectively applied to the RGB Salient Object Detection task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Blind Face Restoration": {
+  "rank_num": 1,
+  "dataset_list": [
+   "CelebA-Test"
+  ],
+  "paper_list": [
+   "2005.05005",
+   "1908.03826",
+   "2009.08709",
+   "1912.07116",
+   "2101.04061"
+  ],
+  "note": "这个可能也算是image-to-image translation任务的形式了",
+  "question": "Find all papers that have either explicitly proposed methods for the Blind Face Restoration task, or have introduced methods that can be effectively applied to the Blind Face Restoration task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Medical Code Prediction": {
+  "rank_num": 6,
+  "dataset_list": [
+   "MIMIC-III",
+   "MIMIC-III",
+   "MIMIC-III",
+   "MIMIC-III",
+   "MIMIC-III",
+   "MIMIC-III"
+  ],
+  "paper_list": [
+   "2010.15728",
+   "2203.01515",
+   "2007.06351",
+   "1802.05695",
+   "2107.10650",
+   "1912.00862"
+  ],
+  "note": "MIMIC-III：医学文本 → 医学代码。",
+  "question": "Find all papers that have either explicitly proposed methods for the Medical Code Prediction task, or have introduced methods that can be effectively applied to the Medical Code Prediction task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Person Re-Identification": {
+  "rank_num": 11,
+  "dataset_list": [
+   "MARS",
+   "MARS",
+   "MARS",
+   "iLIDS-VID",
+   "iLIDS-VID",
+   "CUHK03",
+   "CUHK-SYSU",
+   "CUHK-SYSU",
+   "PRID2011",
+   "iLIDS-VID",
+   "PRID2011"
+  ],
+  "paper_list": [
+   "1703.07737",
+   "1808.07301",
+   "1711.08184",
+   "2011.13475",
+   "1610.05047",
+   "1707.06777",
+   "2104.14913",
+   "2007.04174",
+   "1908.03885",
+   "1809.02874",
+   "2107.11878",
+   "1904.11397",
+   "1909.02240",
+   "1903.00535",
+   "1709.09297",
+   "2111.05170"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Person Re-Identification task, or have introduced methods that can be effectively applied to the Person Re-Identification task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Visual Question Answering (VQA)": {
+  "rank_num": 2,
+  "dataset_list": [
+   "OK-VQA",
+   "Visual7W"
+  ],
+  "paper_list": [
+   "2106.13884",
+   "2109.05014",
+   "1606.01847",
+   "1909.11874",
+   "2204.14198",
+   "2110.08484",
+   "2110.02526",
+   "1611.09978"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Visual Question Answering (VQA) task, or have introduced methods that can be effectively applied to the Visual Question Answering (VQA) task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Audio Classification": {
+  "rank_num": 2,
+  "dataset_list": [
+   "ESC-50",
+   "ESC-50"
+  ],
+  "paper_list": [
+   "2103.03483",
+   "1911.12667",
+   "2104.01778",
+   "2204.11479",
+   "2203.09581",
+   "2202.00874",
+   "2205.09180"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Audio Classification task, or have introduced methods that can be effectively applied to the Audio Classification task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Facial Expression Recognition (FER)": {
+  "rank_num": 4,
+  "dataset_list": [
+   "SFEW",
+   "CK+",
+   "FER2013",
+   "FER+"
+  ],
+  "paper_list": [
+   "1307.0414",
+   "1902.01019",
+   "1612.02903",
+   "2001.06338",
+   "1905.04075",
+   "2105.03588",
+   "1804.10892",
+   "1710.03144",
+   "1609.06591",
+   "2107.03107",
+   "1907.00193",
+   "2012.13912",
+   "2111.07224",
+   "2105.06421"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Facial Expression Recognition (FER) task, or have introduced methods that can be effectively applied to the Facial Expression Recognition (FER) task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Multi-Object Tracking": {
+  "rank_num": 3,
+  "dataset_list": [
+   "MOT16",
+   "KITTI",
+   "MOT17",
+   "MOT20"
+  ],
+  "paper_list": [
+   "2205.00968",
+   "2103.08808",
+   "1902.00749",
+   "1806.11534",
+   "1802.09298",
+   "2203.14360",
+   "1904.07537",
+   "2203.16250",
+   "1905.02843",
+   "2203.03985",
+   "2104.14682",
+   "1903.05625",
+   "2202.13514",
+   "1907.03961",
+   "2110.06864",
+   "2203.13250",
+   "1809.04427"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Multi-Object Tracking task, or have introduced methods that can be effectively applied to the Multi-Object Tracking task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Video Frame Interpolation": {
+  "rank_num": 2,
+  "dataset_list": [
+   "Middlebury",
+   "Middlebury"
+  ],
+  "paper_list": [
+   "2003.05534",
+   "2205.14620",
+   "1711.09078",
+   "1904.00830",
+   "1810.08768",
+   "2202.04901",
+   "1708.01692",
+   "2103.10559",
+   "2007.12622"
+  ],
+  "note": "计算机视觉中的生成式视频增强任务，核心是 预测缺失的中间视频帧。",
+  "question": "Find all papers that have either explicitly proposed methods for the Video Frame Interpolation task, or have introduced methods that can be effectively applied to the Video Frame Interpolation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Head Pose Estimation": {
+  "rank_num": 3,
+  "dataset_list": [
+   "AFLW",
+   "BIWI",
+   "BIWI"
+  ],
+  "paper_list": [
+   "2012.07791",
+   "1611.01731",
+   "2005.10353",
+   "1702.05085",
+   "2202.02299",
+   "1812.00739",
+   "1901.06778",
+   "2202.12555",
+   "2006.15864",
+   "1703.07332",
+   "1710.00925",
+   "1511.07212"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Head Pose Estimation task, or have introduced methods that can be effectively applied to the Head Pose Estimation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "3D Human Pose Estimation": {
+  "rank_num": 1,
+  "dataset_list": [
+   "Human3.6M"
+  ],
+  "paper_list": [
+   "2008.03789",
+   "2204.01971",
+   "1910.12032",
+   "1808.05942",
+   "2110.09243",
+   "2004.04400",
+   "2105.02465",
+   "2011.08627",
+   "2110.11680",
+   "2109.09166",
+   "2012.09398",
+   "2203.08534",
+   "2112.07088",
+   "1701.02468",
+   "2106.05616",
+   "2203.15293",
+   "2004.11822"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the 3D Human Pose Estimation task, or have introduced methods that can be effectively applied to the 3D Human Pose Estimation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "6D Pose Estimation": {
+  "rank_num": 1,
+  "dataset_list": [
+   "REAL275",
+   "YCB-Video"
+  ],
+  "paper_list": [
+   "2103.07054",
+   "1711.00199",
+   "1911.04231",
+   "2203.03089",
+   "1910.10750",
+   "2108.00516",
+   "1911.07771",
+   "1901.02970",
+   "2203.01929",
+   "1901.04780",
+   "2203.05334",
+   "2203.07918",
+   "2103.02242",
+   "2007.13866"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the 6D Pose Estimation task, or have introduced methods that can be effectively applied to the 6D Pose Estimation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Retinal Vessel Segmentation": {
+  "rank_num": 1,
+  "dataset_list": [
+   "DRIVE"
+  ],
+  "paper_list": [
+   "1903.02740",
+   "2105.09365",
+   "2004.03696",
+   "1907.10936",
+   "2101.00535"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Retinal Vessel Segmentation task, or have introduced methods that can be effectively applied to the Retinal Vessel Segmentation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Graph Clustering": {
+  "rank_num": 2,
+  "dataset_list": [
+   "Cora",
+   "Cora"
+  ],
+  "paper_list": [
+   "1908.04003",
+   "1802.04407",
+   "1611.07308",
+   "2107.08562",
+   "1906.01210"
+  ],
+  "note": "Cora 数据集上的 Graph Clustering 任务 是一个 基于图的无监督聚类任务，目标是利用论文引用图的结构和文本特征，把论文划分成语义相近的社团（研究领域）。",
+  "question": "Find all papers that have either explicitly proposed methods for the Graph Clustering task, or have introduced methods that can be effectively applied to the Graph Clustering task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Molecular Property Prediction": {
+  "rank_num": 1,
+  "dataset_list": [
+   "Tox21",
+   "QM9"
+  ],
+  "paper_list": [
+   "2106.06130",
+   "1710.00017",
+   "2007.02835",
+   "2003.03123",
+   "2011.07457",
+   "1706.08566",
+   "1904.01561",
+   "1806.03146",
+   "1905.12265",
+   "1704.01212",
+   "2009.12710",
+   "1806.09206"
+  ],
+  "question": "Find all papers that propose methods for Molecular Property Prediction (e.g., quantum chemistry, toxicity, solubility, bioactivity) or methods applicable to it. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Common Sense Reasoning": {
+  "rank_num": 2,
+  "dataset_list": [
+   "ReCoRD",
+   "SWAG"
+  ],
+  "paper_list": [
+   "1910.10683",
+   "1810.04805",
+   "2204.02311",
+   "1907.11692",
+   "2109.04223",
+   "1808.05326",
+   "2006.03654"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Common Sense Reasoning task, or have introduced methods that can be effectively applied to the Common Sense Reasoning task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Image Clustering": {
+  "rank_num": 5,
+  "dataset_list": [
+   "FRGC",
+   "MNIST-test",
+   "ImageNet-10",
+   "Imagenet-dog-15",
+   "CIFAR-100"
+  ],
+  "paper_list": [
+   "1810.04246",
+   "2105.01289",
+   "1901.07752",
+   "2006.11132",
+   "2006.04535",
+   "2103.09382",
+   "1704.06327",
+   "2011.11586",
+   "1812.04287",
+   "2103.07368",
+   "2005.12320",
+   "2105.01899",
+   "2111.11821",
+   "2009.09687",
+   "1908.05968",
+   "2106.00131",
+   "1604.03628"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Image Clustering task, or have introduced methods that can be effectively applied to the Image Clustering task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "KG-to-Text Generation": {
+  "rank_num": 1,
+  "dataset_list": [
+   "AGENDA"
+  ],
+  "paper_list": [
+   "1904.02342",
+   "2101.00916",
+   "2006.09242",
+   "2001.11003",
+   "2007.08426"
+  ],
+  "note": "知识图谱到文本生成任务，本质是一个 文本生成任务，要求模型根据知识图谱生成自然语言文本。",
+  "question": "Find all papers that have either explicitly proposed methods for the KG-to-Text Generation task, or have introduced methods that can be effectively applied to the KG-to-Text Generation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Video Prediction": {
+  "rank_num": 5,
+  "dataset_list": [
+   "Moving MNIST",
+   "Moving MNIST",
+   "Kinetics-600 12 frames, 64x64",
+   "Kinetics-600 12 frames, 64x64",
+   "Kinetics-600 12 frames, 64x64"
+  ],
+  "paper_list": [
+   "1506.04214",
+   "2203.09303",
+   "2003.04035",
+   "2006.10704",
+   "2103.09504",
+   "1907.06571",
+   "2104.00924",
+   "2107.08037",
+   "1906.02634",
+   "2103.01950",
+   "1804.06300",
+   "1811.07490",
+   "2003.01460"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Video Prediction task, or have introduced methods that can be effectively applied to the Video Prediction task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Monocular Depth Estimation": {
+  "rank_num": 2,
+  "dataset_list": [
+   "KITTI Eigen split",
+   "KITTI Eigen split unsupervised"
+  ],
+  "paper_list": [
+   "2103.12209",
+   "2204.00987",
+   "2104.00556",
+   "2006.04026",
+   "2109.12484",
+   "2203.14211",
+   "2007.10603",
+   "2112.06782",
+   "2112.13047",
+   "2205.13543",
+   "2110.09482",
+   "2110.12516",
+   "2203.01502"
+  ],
+  "question": "Find all papers that have proposed methods specifically for the Monocular Depth Estimation task (predicting dense depth from a single RGB image), as well as papers introducing methods that can be directly applied to this task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Optical Flow Estimation": {
+  "rank_num": 1,
+  "dataset_list": [
+   "KITTI 2012"
+  ],
+  "paper_list": [
+   "1904.05290",
+   "1809.05571",
+   "1904.09117",
+   "1805.07036",
+   "2003.10955",
+   "2006.12263",
+   "1903.07414"
+  ],
+  "note": "基于真实自动驾驶视频的密集回归型低级视觉任务，其目标是预测每个像素在相邻帧之间的二维运动向量场。",
+  "question": "Find all papers that have either explicitly proposed methods for the Optical Flow Estimation task, or have introduced methods that can be effectively applied to the Optical Flow Estimation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Depth Completion": {
+  "rank_num": 2,
+  "dataset_list": [
+   "KITTI Depth Completion",
+   "KITTI Depth Completion"
+  ],
+  "paper_list": [
+   "2103.00783",
+   "1905.08616",
+   "2106.02994",
+   "2007.10042",
+   "2108.10531",
+   "1902.05356"
+  ],
+  "question": "Find all papers that have proposed methods for the Depth Completion task (i.e., predicting a dense depth map from sparse depth measurements, often with RGB guidance), or that introduced methods applicable to Depth Completion. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Image Retrieval": {
+  "rank_num": 3,
+  "dataset_list": [
+   "CUB-200-2011",
+   "CARS196",
+   "In-Shop",
+   "MIT-States"
+  ],
+  "paper_list": [
+   "1810.06951",
+   "1904.04370",
+   "1812.07119",
+   "1912.06798",
+   "1709.07871",
+   "1903.10663",
+   "2004.01113",
+   "1804.00382",
+   "1411.4555",
+   "1811.12649",
+   "1803.09851",
+   "1904.06627",
+   "1706.07567",
+   "2006.11149",
+   "2110.01445"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Image Retrieval task, or have introduced methods that can be effectively applied to the Image Retrieval task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Grammatical Error Correction": {
+  "rank_num": 1,
+  "dataset_list": [
+   "JFLEG"
+  ],
+  "paper_list": [
+   "1804.05945",
+   "2005.00987",
+   "1903.00138",
+   "2105.04443",
+   "1804.05940",
+   "1801.08831"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Grammatical Error Correction task, or have introduced methods that can be effectively applied to the Grammatical Error Correction task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Video Retrieval": {
+  "rank_num": 4,
+  "dataset_list": [
+   "ActivityNet",
+   "MSVD",
+   "ActivityNet",
+   "ActivityNet"
+  ],
+  "paper_list": [
+   "2205.00823",
+   "2109.04290",
+   "2108.09980",
+   "1907.13487",
+   "2007.10639",
+   "2204.03382",
+   "2104.08860",
+   "2203.15086",
+   "2102.12443"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Video Retrieval task, or have introduced methods that can be effectively applied to the Video Retrieval task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Recommendation Systems": {
+  "rank_num": 3,
+  "dataset_list": [
+   "MovieLens 10M",
+   "MovieLens 20M",
+   "MovieLens 1M"
+  ],
+  "paper_list": [
+   "1905.03375",
+   "1802.05814",
+   "1808.09781",
+   "1707.05176",
+   "1905.01395",
+   "1605.09477",
+   "1906.09506",
+   "2102.05774",
+   "1706.02263",
+   "1606.07659",
+   "1912.11160",
+   "1605.00937",
+   "1906.04281",
+   "1911.00936",
+   "1902.06236",
+   "1809.01703"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Recommendation Systems task, or have introduced methods that can be effectively applied to the Recommendation Systems task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Group Activity Recognition": {
+  "rank_num": 2,
+  "dataset_list": [
+   "Collective Activity",
+   "Volleyball"
+  ],
+  "paper_list": [
+   "2104.13586",
+   "2105.06754",
+   "1811.00270",
+   "2112.05892",
+   "1511.04196",
+   "1904.10117",
+   "1704.03058",
+   "2108.11743",
+   "2108.04186"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Group Activity Recognition task, or have introduced methods that can be effectively applied to the Group Activity Recognition task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Semantic Segmentation": {
+  "rank_num": 4,
+  "dataset_list": [
+   "ADE20K",
+   "ADE20K val",
+   "KITTI Semantic Segmentation",
+   "GTAV-to-Cityscapes Labels",
+   "COCO-Stuff",
+   "COCO-Stuff-27",
+   "FSS-1000"
+  ],
+  "paper_list": [
+   "1807.11699",
+   "2103.13413",
+   "1903.11816",
+   "2205.15288",
+   "2111.14887",
+   "1803.05675",
+   "1712.02616",
+   "2108.00154",
+   "2109.06422",
+   "2204.11891",
+   "2008.09162",
+   "1805.01556",
+   "2111.12460",
+   "2201.03546",
+   "1911.05250",
+   "2204.08808",
+   "2103.14030",
+   "2202.11981",
+   "2105.05633",
+   "1812.01593",
+   "2011.01974",
+   "2203.07988",
+   "2003.04052",
+   "1901.02985",
+   "1803.08904",
+   "2203.08414",
+   "2202.02002",
+   "1907.12347",
+   "2002.10893",
+   "2006.11538",
+   "2103.17070",
+   "1912.06290",
+   "1612.01105",
+   "1807.06653",
+   "2101.10979",
+   "2204.13132"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Semantic Segmentation task, or have introduced methods that can be effectively applied to the Semantic Segmentation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Drug Discovery": {
+  "rank_num": 1,
+  "dataset_list": [
+   "Tox21"
+  ],
+  "paper_list": [
+   "1509.09292",
+   "1905.12265",
+   "1709.03741",
+   "1905.13343",
+   "1903.02541",
+   "1806.04449"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Drug Discovery task, or have introduced methods that can be effectively applied to the Drug Discovery task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Anomaly Detection": {
+  "rank_num": 2,
+  "dataset_list": [
+   "Fashion-MNIST",
+   "Unlabeled CIFAR-10 vs CIFAR-100"
+  ],
+  "paper_list": [
+   "2106.03844",
+   "1909.11480",
+   "2010.05903",
+   "2007.08176",
+   "2106.03899",
+   "2007.06963",
+   "2103.12051",
+   "2101.10043",
+   "2112.07662",
+   "2005.02359",
+   "2106.05410",
+   "2201.10703"
+  ],
+  "note": "在 Fashion-MNIST 和 Unlabeled CIFAR-10/100 上的 Anomaly Detection 任务，都是 单类异常检测 (One-Class Anomaly Detection)，区别在于 Fashion-MNIST 简单、CIFAR-10 较复杂、CIFAR-100 更具细粒度挑战性。",
+  "question": "Find all papers that have either explicitly proposed methods for the Anomaly Detection task, or have introduced methods that can be effectively applied to the Anomaly Detection task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Dense Pixel Correspondence Estimation": {
+  "rank_num": 1,
+  "dataset_list": [
+   "HPatches"
+  ],
+  "paper_list": [
+   "1810.08393",
+   "1611.00850",
+   "1709.02371",
+   "2106.03090",
+   "1612.01925",
+   "1506.07656",
+   "2103.14167"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Dense Pixel Correspondence Estimation task, or have introduced methods that can be effectively applied to the Dense Pixel Correspondence Estimation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Text-To-Speech Synthesis": {
+  "rank_num": 1,
+  "dataset_list": [
+   "LJSpeech"
+  ],
+  "paper_list": [
+   "2204.09934",
+   "2105.06337",
+   "1905.09263",
+   "2205.04421",
+   "2006.04558",
+   "2005.11129",
+   "1809.08895"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Text-To-Speech Synthesis task, or have introduced methods that can be effectively applied to the Text-To-Speech Synthesis task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "AMR-to-Text Generation": {
+  "rank_num": 1,
+  "dataset_list": [
+   "LDC2017T10"
+  ],
+  "paper_list": [
+   "2010.04520",
+   "2005.09123",
+   "1909.00352",
+   "2004.06577",
+   "2203.07836",
+   "2007.08426"
+  ],
+  "note": "结构化语义图到自然语言文本的生成任务 (Semantic-to-Text NLG)，本质上属于 监督的 Seq2Seq 文本生成任务。",
+  "question": "Find all papers that have either explicitly proposed methods for the AMR-to-Text Generation task, or have introduced methods that can be effectively applied to the AMR-to-Text Generation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Lung Nodule Classification": {
+  "rank_num": 1,
+  "dataset_list": [
+   "LIDC-IDRI"
+  ],
+  "paper_list": [
+   "1901.00120",
+   "2101.07429",
+   "2010.15417",
+   "1904.10126",
+   "1801.09555"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Lung Nodule Classification task, or have introduced methods that can be effectively applied to the Lung Nodule Classification task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Multimodal Sentiment Analysis": {
+  "rank_num": 1,
+  "dataset_list": [
+   "CMU-MOSEI"
+  ],
+  "paper_list": [
+   "2002.08267",
+   "2201.09828",
+   "2003.01043",
+   "2006.15955",
+   "2110.03007"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Multimodal Sentiment Analysis task, or have introduced methods that can be effectively applied to the Multimodal Sentiment Analysis task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Image Captioning": {
+  "rank_num": 2,
+  "dataset_list": [
+   "Flickr30k Captions test",
+   "Flickr30k Captions test"
+  ],
+  "paper_list": [
+   "1909.11059",
+   "1412.2306",
+   "1706.08474",
+   "2110.08484",
+   "2102.02779"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Image Captioning task, or have introduced methods that can be effectively applied to the Image Captioning task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Point Cloud Completion": {
+  "rank_num": 1,
+  "dataset_list": [
+   "ShapeNet"
+  ],
+  "paper_list": [
+   "1506.03134",
+   "2108.08839",
+   "2202.09367",
+   "1912.00280",
+   "2006.03761",
+   "1808.00671"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Point Cloud Completion task, or have introduced methods that can be effectively applied to the Point Cloud Completion task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Instance Segmentation": {
+  "rank_num": 3,
+  "dataset_list": [
+   "COCO minival",
+   "COCO minival",
+   "COCO minival",
+   "S3DIS"
+  ],
+  "paper_list": [
+   "2001.00309",
+   "1903.10520",
+   "2110.09734",
+   "1904.02689",
+   "1912.06218",
+   "2006.15015",
+   "2003.10152",
+   "1912.09654",
+   "2105.01928",
+   "1911.06667",
+   "2203.12827",
+   "2104.01329",
+   "2108.02350",
+   "2106.02253",
+   "2004.13665",
+   "2007.14772",
+   "1904.01169",
+   "2203.01509"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Instance Segmentation task, or have introduced methods that can be effectively applied to the Instance Segmentation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Vehicle Re-Identification": {
+  "rank_num": 6,
+  "dataset_list": [
+   "VehicleID Medium",
+   "VehicleID Medium",
+   "VehicleID Large",
+   "VehicleID Large",
+   "VehicleID Small",
+   "VehicleID Small"
+  ],
+  "paper_list": [
+   "2108.08728",
+   "2102.03898",
+   "2102.04640",
+   "2110.07933",
+   "2108.11179",
+   "2007.12163",
+   "2004.06305"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Vehicle Re-Identification task, or have introduced methods that can be effectively applied to the Vehicle Re-Identification task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Question Generation": {
+  "rank_num": 1,
+  "dataset_list": [
+   "SQuAD1.1"
+  ],
+  "paper_list": [
+   "2002.12804",
+   "2001.11314",
+   "2001.04063",
+   "1905.03197",
+   "1704.01792",
+   "1902.11049",
+   "1909.01953"
+  ],
+  "note": "在 SQuAD1.1 上，研究者会把它反转过来用：输入：上下文段落 和标注好的答案片段。输出：一个可自然语言表达的问题，这个问题的答案就是输入的答案片段。",
+  "question": "Find all papers that have either explicitly proposed methods for the Question Generation task, or have introduced methods that can be effectively applied to the Question Generation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Face Detection": {
+  "rank_num": 1,
+  "dataset_list": [
+   "Annotated Faces in the Wild"
+  ],
+  "paper_list": [
+   "1708.05234",
+   "1809.02693",
+   "1607.05477",
+   "1408.1656",
+   "1707.09531",
+   "1606.00850",
+   "1603.01249"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Face Detection task, or have introduced methods that can be effectively applied to the Face Detection task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Crowd Counting": {
+  "rank_num": 1,
+  "dataset_list": [
+   "ShanghaiTech A"
+  ],
+  "paper_list": [
+   "2107.12746",
+   "2003.05586",
+   "2202.13660",
+   "1909.07057",
+   "1707.09605"
+  ],
+  "note": "是一个 密集预测型的监督回归任务，输入是人群图像，输出是人数或密度图。",
+  "question": "Find all papers that have either explicitly proposed methods for the Crowd Counting task, or have introduced methods that can be effectively applied to the Crowd Counting task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Action Classification": {
+  "rank_num": 1,
+  "dataset_list": [
+   "EPIC-KITCHENS-55(Egocentric Activity Recognition)",
+   "Kinetics-700(Action Classification)",
+   "JIGSAWS(Action Segmentation)"
+  ],
+  "paper_list": [
+   "2011.01619",
+   "1806.08089",
+   "1812.05038",
+   "2006.08247",
+   "1905.09035",
+   "1905.00561",
+   "2104.11746",
+   "1801.09571",
+   "1705.07818",
+   "1608.08242",
+   "2112.09133",
+   "2112.07175",
+   "1908.08498",
+   "2001.04627",
+   "1602.02995",
+   "2201.04288",
+   "2002.08718",
+   "1811.10698",
+   "2112.01526"
+  ],
+  "note": "短视频动作分类任务输入：短视频片段（通常来自 YouTube），长度约 10 秒，包含人物执行某种具体行为。输出：一个类别标签，属于 Kinetics-700 定义的 700 个动作类别之一（例如“吹蜡烛”、“打篮球”、“弹吉他”等）。任务属性：单标签分类：每个视频片段只标注一个主动作类别。视频动作分类数据集，也可以看做是短视频分类数据集",
+  "question": "Find all papers that have either explicitly proposed methods for the video action recognition/classification, temporal action segmentation, or have introduced methods that can be effectively applied to these tasks. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Human-Object Interaction Detection": {
+  "rank_num": 1,
+  "dataset_list": [
+   "HICO-DET"
+  ],
+  "paper_list": [
+   "2103.05983",
+   "2103.05399",
+   "1912.12898",
+   "1704.07333",
+   "2112.01838",
+   "1811.08264",
+   "2010.01005"
+  ],
+  "note": "输入：自然场景图像。输出：人的检测框（human bounding box）；物体的检测框（object bounding box）；人与物体之间的交互关系类别（verb label，如 hold, ride, eat）。多标签目标检测 + 关系分类任务，要求模型同时找出 人框、物体框，并预测他们之间的 交互类别。",
+  "question": "Find all papers that have either explicitly proposed methods for the Human-Object Interaction Detection task, or have introduced methods that can be effectively applied to the Human-Object Interaction Detection task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Interactive Video Object Segmentation": {
+  "rank_num": 2,
+  "dataset_list": [
+   "DAVIS 2017",
+   "DAVIS 2017"
+  ],
+  "paper_list": [
+   "2104.10386",
+   "2103.07941",
+   "2003.13246",
+   "1904.09791",
+   "2103.03821",
+   "2007.08139"
+  ],
+  "note": "基于用户交互提示的视频逐像素目标分割任务，本质属于 半监督/交互式视频分割。普通的 VOS（视频目标分割）任务：给定视频和一个初始帧的分割掩码，要求模型自动跟踪并分割目标对象在后续帧中的区域。交互式视频目标分割 (iVOS)：在真实应用中，用户不可能提供全帧的精确分割作为初始化。因此任务设定为：用户通过极少数交互提示（例如点击点、粗略涂抹、边界 scribbles 等）来指定目标对象。模型需要根据这些提示，逐帧输出目标对象的分割掩码。",
+  "question": "Find all papers that have either explicitly proposed methods for the Interactive Video Object Segmentation task, or have introduced methods that can be effectively applied to the Interactive Video Object Segmentation task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Human Pose Forecasting": {
+  "rank_num": 7,
+  "dataset_list": [
+   "Human3.6M",
+   "Human3.6M",
+   "Human3.6M",
+   "Human3.6M",
+   "Human3.6M",
+   "Human3.6M",
+   "Human3.6M"
+  ],
+  "paper_list": [
+   "1908.05436",
+   "1511.05298",
+   "1907.04967",
+   "1705.00053",
+   "1810.09676",
+   "2110.04573",
+   "1508.00271",
+   "1808.04545",
+   "1711.09561",
+   "1611.02648",
+   "1806.07772",
+   "2108.08422",
+   "1909.03449",
+   "2203.16051"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Human Pose Forecasting task, or have introduced methods that can be effectively applied to this task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Pedestrian Detection": {
+  "rank_num": 2,
+  "dataset_list": [
+   "CityPersons",
+   "CityPersons"
+  ],
+  "paper_list": [
+   "1807.01438",
+   "1904.02948",
+   "1711.07752",
+   "2003.08799",
+   "2007.13376",
+   "1807.08407",
+   "2002.09053"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Pedestrian Detection task, or have introduced methods that can be effectively applied to this task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Image-to-Image Translation": {
+  "rank_num": 4,
+  "dataset_list": [
+   "ADE20K-Outdoor Labels-to-Photos",
+   "CelebA-HQ",
+   "COCO-Stuff Labels-to-Photos",
+   "COCO-Stuff Labels-to-Photos"
+  ],
+  "paper_list": [
+   "1707.09405",
+   "2012.04781",
+   "1912.01865",
+   "1903.07291",
+   "1711.11585",
+   "2011.12636",
+   "2205.02087",
+   "1910.06809",
+   "2109.14715",
+   "2107.11262",
+   "1804.10992",
+   "2004.05571"
+  ],
+  "note": "这个任务名称太大了 ",
+  "question": "Find all papers that have either explicitly proposed methods for the Image-to-Image Translation task, or have introduced methods that can be effectively applied to this task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "3D Face Reconstruction": {
+  "rank_num": 1,
+  "dataset_list": [
+   "AFLW2000-3D"
+  ],
+  "paper_list": [
+   "2103.16554",
+   "2009.09960",
+   "2106.03021",
+   "2105.14857",
+   "1709.01442",
+   "1511.07212",
+   "1803.07835"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the 3D Face Reconstruction task, or have introduced methods that can be effectively applied to this task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Low-Light Image Enhancement": {
+  "rank_num": 1,
+  "dataset_list": [
+   "LOL v1"
+  ],
+  "paper_list": [
+   "2205.14871",
+   "2203.01296",
+   "2111.15557",
+   "2109.05923",
+   "2205.12639",
+   "2201.02973"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Low-Light Image Enhancement task, or have introduced methods that can be effectively applied to this task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ },
+ "Color Image Denoising": {
+  "rank_num": 2,
+  "dataset_list": [
+   "Darmstadt Noise Dataset",
+   "Darmstadt Noise Dataset"
+  ],
+  "paper_list": [
+   "1908.00273",
+   "1508.02848",
+   "1807.04686",
+   "1904.07396",
+   "1807.04364",
+   "1811.11127"
+  ],
+  "question": "Find all papers that have either explicitly proposed methods for the Color Image Denoising task, or have introduced methods that can be effectively applied to the Color Image Denoising task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.\n\n Give your final result in JSON format:\n          [\n            {\n              \"paper_id\": \"paper id\",\n              \"method\": \"method name\"\n            },\n            ....\n          ]"
+ }
+}
