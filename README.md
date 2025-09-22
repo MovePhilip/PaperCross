@@ -1,6 +1,6 @@
 # PaperCross
 
-This repository contains the released benchmark datasets for the paper PaperCross: A Cross-Document and Multi-Modal Question Answering Benchmark for Scientific Papers
+This repository contains the released benchmark datasets for RAG in scientific document field
 
 ![](main.png)
 
