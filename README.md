@@ -7,5 +7,5 @@ task.json for task centric question
 
 rank.json for dataset centric question
 
-2-hop.json for 2-hop question
+2hop.json for 2-hop question
 
