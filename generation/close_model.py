@@ -1,6 +1,6 @@
 import os
 import json
-os.environ["DASHSCOPE_API_KEY"]="sk-8dcaeb06a7944113a00d08b94824319a"
+os.environ["DASHSCOPE_API_KEY"]=""
 os.environ["HF_ENDPOINT"]="https://hf-mirror.com"
 # os.environ["CUDA_VISIBLE_DEVICES"]="4"
 
