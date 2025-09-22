@@ -26,13 +26,13 @@ class closemodel:
                   base_url="https://api.deepseek.com/beta"
               else:
                   base_url="https://api.deepseek.com"
-              self.client = OpenAI(api_key="sk-1ce662dbcdea4e15946746f5585c975b", base_url=base_url)
+              self.client = OpenAI(api_key="", base_url=base_url)
           elif self.model_name=="gpt-4.1":
-              self.client = OpenAI(api_key="sk-cudqGwlxe0r80EpBXgqjNobf3PhQBmiqXrmMSWzB8FQYkh8H", base_url="https://api.openai.com/v1")
+              self.client = OpenAI(api_key="", base_url="https://api.openai.com/v1")
           elif self.model_name=="gpt-5-chat":
-              self.client = OpenAI(api_key="sk-nwVDjcHR7vXMzAmx4ZuLikCgnJPruToNrY3iIW7Xx2qSMAWN", base_url="https://xiaoai.plus/v1") 
+              self.client = OpenAI(api_key="", base_url="https://xiaoai.plus/v1") 
           elif self.model_name in ["deepseek_zijie","qwen_vl", "qwen3_235b"]:
-              self.client = OpenAI(api_key="e36b5397eee2bb61205e0939d143a00292cec18a0d1b14bce1077c502285d660", base_url="https://uni-api.cstcloud.cn/v1")#https://uni-api.cstcloud.cn/v1,https://ark.cn-beijing.volces.com/api/v3
+              self.client = OpenAI(api_key="", base_url="https://uni-api.cstcloud.cn/v1")#https://uni-api.cstcloud.cn/v1,https://ark.cn-beijing.volces.com/api/v3
           else:
               raise ValueError(f"Unsupported model: {self.model_name}")
            
