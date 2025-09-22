@@ -1,6 +1,6 @@
 # PaperCross
 
-This repository contains the released benchmark datasets for RAG in scientific document field
+This repository contains a released benchmark datasets for RAG in scientific document processing field
 
 ![](main.png)
 
