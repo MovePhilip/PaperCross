@@ -64,7 +64,7 @@ class closemodel:
 
                     headers = {
                         "Content-Type": "application/json",
-                        "Authorization": "Bearer sk-nwVDjcHR7vXMzAmx4ZuLikCgnJPruToNrY3iIW7Xx2qSMAWN",
+                        "Authorization": "",
                     }
 
                     data = {
@@ -92,7 +92,7 @@ class closemodel:
 
             headers = {
                 "Content-Type": "application/json",
-                "Authorization": "Bearer sk-cudqGwlxe0r80EpBXgqjNobf3PhQBmiqXrmMSWzB8FQYkh8H",
+                "Authorization": "",
                 # "response_format": "json_object"
             }
 
@@ -212,7 +212,7 @@ class closemodel:
 
             headers = {
                 "Content-Type": "application/json",
-                "Authorization": "Bearer e36b5397eee2bb61205e0939d143a00292cec18a0d1b14bce1077c502285d660",
+                "Authorization": "",
                 # "response_format": "json_object"
             }
             while True:
