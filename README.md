@@ -93,7 +93,3 @@ Causal LSTM + GHU model on the MNIST-2 dataset with 10 time steps?
 ## 📑 About
 PaperCross is designed for **evaluating RAG systems in scientific QA tasks**.  
 It covers diverse scenarios including task-centric reasoning, dataset-level ranking, and multi-hop question answering, enabling a comprehensive benchmark for retrieval + generation systems.  
-
----
-
-要不要我顺便帮你加一个 **快速开始 / Quickstart** 部分（例如：如何加载和使用 JSON 数据集做实验的 Python 样例代码）？
