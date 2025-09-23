@@ -1,88 +1,109 @@
+好的 👍 我帮你把 `README.md` 优化了一下，更加清晰、专业、结构化，方便别人快速理解 PaperCross。以下是改进后的版本：  
+
+---
+
 # PaperCross
 
-This repository contains a released benchmark datasets for RAG in scientific document processing field
+**PaperCross** 是一个面向 **科学文档处理** 的开放基准数据集，专注于评估 **Retrieval-Augmented Generation (RAG)** 系统在多种问答任务下的表现。  
 
 ![](main.png)
 
-## Dataset  statistics
+---
 
-| Item             | Count | Task               | Count |
-|------------------|-------|--------------------|-------|
-| Task question    | 53    | Table2chart        | 404   |
-| Dataset question | 184   | Table2table        | 788   |
-| Leaderboard with 5 paper  | 53    | Table2text         | 692   |
-| Leaderboard with 6 paper  | 68    | Text2chart         | 362   |
-| Leaderboard with 7 paper  | 63    | Text2table         | 732   |
-| Unique paper     | 1002  | Text2text          | 666   |
-| Total page       | 14064 | Total 2-Hop question | 3644 |
+## 📊 Dataset Statistics
 
-## Dataset files
+| Category              | Count | Task Type         | Count |
+|-----------------------|-------|-------------------|-------|
+| Task questions        | 53    | Table-to-Chart    | 404   |
+| Dataset questions     | 184   | Table-to-Table    | 788   |
+| Leaderboard (5 papers) | 53    | Table-to-Text     | 692   |
+| Leaderboard (6 papers) | 68    | Text-to-Chart     | 362   |
+| Leaderboard (7 papers) | 63    | Text-to-Table     | 732   |
+| Unique papers         | 1002  | Text-to-Text      | 666   |
+| Total pages           | 14,064| Total 2-Hop QA    | 3,644 |
 
-task.json for task centric question
+---
 
-rank.json for dataset centric question
+## 📂 Dataset Files
 
-2hop.json for 2-hop question
+- **`task.json`** – Task-centric questions  
+- **`rank.json`** – Dataset-centric questions  
+- **`2hop.json`** – 2-hop reasoning questions  
 
-## Exampel question
-Dataset Centric question
-```
-Please help me find the performance of methods proposed in different papers on the Accuracy (%) metric for the Unsupervised Image Classification task on the ImageNet (ImageNet) dataset, list the top three metric result. 
+Example data and inference results are provided in:
+- `task_example.json`  
+- `rank_example.json`  
+- `2hop_example.json`  
+
+---
+
+## 💡 Example Questions
+
+### 1. Dataset-Centric Question
+```text
+Please help me find the performance of methods proposed in different papers 
+on the Accuracy (%) metric for the Unsupervised Image Classification task 
+on the ImageNet dataset. List the top three results.
 
 Requirements:
-1.for each paper, you should only give one metric result (the highest one) of its own proposed method, since most papers will compare the performance of methods proposed in other papers and some variants of the same method in abalation study. 
-2. The top three metric result means that you need to find at least three papers that have reported the metric result.
-3. The article ID must correspond to the method name, meaning the article ID should refer to the paper in which the method was originally proposed.
-4. If a method yields different results under the same experimental conditions in different papers, you should take the results reported in the original paper as the standard.
+1. For each paper, only list its own proposed method’s best result 
+   (ignore baseline or ablation variants).
+2. Ensure at least three papers are included.
+3. The provided paper_id must refer to the original paper of the method.
+4. If multiple papers report different values, use the original paper’s result.
 
-You need to give the result in JSON format:
+Output format (JSON):
 [
-    {"rank_id":1
-    "method":"model name",
-    "value": "metric value"
-    "paper_id":"paper id"
-    },
-    {"rank_id":2
-    "method":"model name",
-    "value": "metric value"
-    "paper_id":"paper id"
-    },
-    {"rank_id":3
-    "method":"model name",
-    "value": "metric value"
-    "paper_id":"paper id"
-    }
-]                    "
-
-```
-
-Task centric question
-```
-Find all papers that have either explicitly proposed methods for the Human Keypoint Detection task, or have introduced methods that can be effectively applied to the Human Keypoint Detection task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.
-
-Give your final result in JSON format:
-[
-  {
-    "paper_id": "paper id",
-    "method": "method name"
-  },
-  ....
+  {"rank_id":1, "method":"model name", "value":"metric value", "paper_id":"paper id"},
+  {"rank_id":2, "method":"model name", "value":"metric value", "paper_id":"paper id"},
+  {"rank_id":3, "method":"model name", "value":"metric value", "paper_id":"paper id"}
 ]
 ```
 
+---
 
-2hop question
+### 2. Task-Centric Question
+```text
+Find all papers that either explicitly proposed methods 
+for the Human Keypoint Detection task, 
+or introduced methods that can be effectively applied to it. 
+
+Requirements:
+- Provide paper ID and method name.
+- If the original paper of a method cannot be identified, exclude it.
+
+Output format (JSON):
+[
+  {"paper_id":"paper id", "method": "method name"},
+  {"paper_id":"paper id", "method": "method name"},
+  ...
+]
 ```
-In the paper where the proposed method achieves a value of 0.898 for metric SSIM on the Video Prediction task of dataset Moving MNIST (Moving MNIST), What is the SSIM value achieved by the final Causal LSTM + GHU model on the MNIST-2 dataset with 10 time steps?
 
+---
+
+### 3. 2-Hop Question
+```text
+In the paper where a proposed method achieves 0.898 SSIM 
+on the Video Prediction task (dataset: Moving MNIST), 
+what SSIM value is reported by the final 
+Causal LSTM + GHU model on the MNIST-2 dataset with 10 time steps?
 ```
 
+---
 
+## 🔍 Example Logs
+We also provide example inference logs for **ReAct-style reasoning**:  
+- `task_example.json`  
+- `rank_example.json`  
+- `2hop_example.json`  
 
-## Example inference log of ReAct method
+---
 
-task_example.json for task centric question
+## 📑 About
+PaperCross is designed for **evaluating RAG systems in scientific QA tasks**.  
+It covers diverse scenarios including task-centric reasoning, dataset-level ranking, and multi-hop question answering, enabling a comprehensive benchmark for retrieval + generation systems.  
 
-rank_example.json for dataset centric question
+---
 
-2hop_example.json for 2-hop question
+要不要我顺便帮你加一个 **快速开始 / Quickstart** 部分（例如：如何加载和使用 JSON 数据集做实验的 Python 样例代码）？
