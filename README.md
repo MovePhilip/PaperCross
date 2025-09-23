@@ -1,7 +1,3 @@
-好的 👍 我帮你把 `README.md` 优化了一下，更加清晰、专业、结构化，方便别人快速理解 PaperCross。以下是改进后的版本：  
-
----
-
 # PaperCross
 
 **PaperCross** 是一个面向 **科学文档处理** 的开放基准数据集，专注于评估 **Retrieval-Augmented Generation (RAG)** 系统在多种问答任务下的表现。  
