@@ -1,6 +1,6 @@
 # PaperCross
 
-**PaperCross** 是一个面向 **科学文档处理** 的开放基准数据集，专注于评估 **Retrieval-Augmented Generation (RAG)** 系统在多种问答任务下的表现。  
+PaperCross is an open benchmark dataset for scientific document processing, dedicated to evaluating Retrieval-Augmented Generation (RAG) systems across a variety of question-answering tasks.
 
 ![](main.png)
 
