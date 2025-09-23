@@ -73,12 +73,9 @@ Give your final result in JSON format:
 
 2hop question
 ```
-
-
+In the paper where the proposed method achieves a value of 0.898 for metric SSIM on the Video Prediction task of dataset Moving MNIST (Moving MNIST), What is the SSIM value achieved by the final Causal LSTM + GHU model on the MNIST-2 dataset with 10 time steps?
 
 ```
-
-
 
 
 
