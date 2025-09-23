@@ -47,7 +47,7 @@ Requirements:
    (ignore baseline or ablation variants).
 2. Ensure at least three papers are included.
 3. The provided paper_id must refer to the original paper of the method.
-4. If multiple papers report different values, use the original paper’s result.
+4. If multiple papers report different values of the same method under same experiment conditions, use the original paper’s result.
 
 Output format (JSON):
 [
