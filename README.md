@@ -56,6 +56,31 @@ You need to give the result in JSON format:
 
 ```
 
+Task centric question
+```
+Find all papers that have either explicitly proposed methods for the Human Keypoint Detection task, or have introduced methods that can be effectively applied to the Human Keypoint Detection task. Include as many relevant papers as possible. For each paper, provide both the paper ID and the corresponding method name. If a method is relevant to the task but its original paper cannot be identified, exclude it from the results.
+
+Give your final result in JSON format:
+[
+  {
+    "paper_id": "paper id",
+    "method": "method name"
+  },
+  ....
+]
+```
+
+
+2hop question
+```
+
+
+
+```
+
+
+
+
 
 ## Example inference log of ReAct method
 
