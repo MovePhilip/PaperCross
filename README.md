@@ -86,13 +86,6 @@ what SSIM value is reported by the final
 Causal LSTM + GHU model on the MNIST-2 dataset with 10 time steps?
 ```
 
----
-
-## 🔍 Example Logs
-We also provide example inference logs for **ReAct-style reasoning**:  
-- `task_example.json`  
-- `rank_example.json`  
-- `2hop_example.json`  
 
 ---
 
