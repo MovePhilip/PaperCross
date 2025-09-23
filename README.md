@@ -26,7 +26,8 @@
 - **`rank.json`** – Dataset-centric questions  
 - **`2hop.json`** – 2-hop reasoning questions  
 
-Example data and inference results are provided in:
+Example inference logs for ReAct-style reasoning:
+
 - `task_example.json`  
 - `rank_example.json`  
 - `2hop_example.json`  
