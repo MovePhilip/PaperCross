@@ -1,4 +1,4 @@
-# PaperCross
+# 📚 PaperCross
 
 PaperCross is an open benchmark dataset for scientific document processing, dedicated to evaluating Retrieval-Augmented Generation (RAG) systems across a variety of question-answering tasks.
 
