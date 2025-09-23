@@ -88,7 +88,7 @@ what SSIM value is reported by the final
 Causal LSTM + GHU model on the MNIST-2 dataset with 10 time steps?
 
 Output format (JSON):
-{"paper_id":"paper id", "answer": "answer"},
+{"paper_id":"paper id", "answer": "answer"}
 
 ```
 
