@@ -6,6 +6,14 @@ PaperCross is an open benchmark dataset for scientific document processing, dedi
 
 ---
 
+## Dataset Features
+List question
+- dataset centric, given dataset, task, metric, ask the Q&A system to give answers.
+- Task centric, given Task descripion, list all the relevant paper and its corresponding method name.
+2hop question
+- ask the Q&A system to local a specific paper, then ask a specific details from one of three modalities, text, table and chart
+
+
 ## 📊 Dataset Statistics
 
 | Category              | Count | Task Type         | Count |
