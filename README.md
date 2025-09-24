@@ -11,11 +11,11 @@ List question
 - dataset centric, given dataset, task, metric, ask the Q&A system to give top three entry with Paper ID, method name, metric value.
 - Task centric, given Task descripion, list all the relevant paper and its corresponding method name.
 
-For this type of question, the model need to identify the result from the main table and abalation study table to identify the best metric result
-
+For this type of question, the model need to identify the result from the main table and abalation study table to identify the best metric result.
 
 2hop question
 - ask the Q&A system to local a specific paper, then ask a specific details from one of three modalities, text, table and chart
+This type of question need the model to first identify the correct paper based on the former description, then it need to identify the relevant information from the located paper.
 
 
 ## 📊 Dataset Statistics
