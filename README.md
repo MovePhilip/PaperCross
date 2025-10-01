@@ -6,17 +6,22 @@ PaperCross is an open benchmark dataset for scientific document processing, dedi
 
 ---
 
-## Dataset Features
-List question
-- dataset centric, given dataset, task, metric, ask the Q&A system to give top three entry with Paper ID, method name, metric value.
-- Task centric, given Task descripion, list all the relevant paper and its corresponding method name.
+##  Dataset Features
 
-For this type of question, the model need to identify the result from the main table and abalation study table to identify the best metric result.
+The **PaperCross** benchmark is designed for **cross-document** and **multi-modal** question answering in the scientific domain, aiming to reflect real information needs of researchers.
 
-2hop question
-- ask the Q&A system to local a specific paper, then ask a specific details from one of three modalities, text, table and chart
-This type of question need the model to first identify the correct paper based on the former description, then it need to identify the relevant information from the located paper.
+- **Authentic Source**  
+  - Built from **1,002 full-text computer science papers**, curated from public leaderboards on *Papers with Code*.  
+  - Covers multiple modalities, including text, tables, and figures.  
 
+- **Rich Question Design (3,881 QA pairs)**  
+  - **List Questions (breadth-oriented)**: Require broad cross-paper synthesis, such as identifying top-performing methods for a given dataset/metric or collecting all relevant papers for a specific task.  
+  - **2-Hop Questions (depth-oriented)**: Simulate realistic research workflows by first locating a target paper (via textual description or numerical values), then asking fine-grained questions about its text, tables, or figures.  
+
+- **Multi-Modal Coverage**  
+  - **Text-related**: innovations, limitations, dataset usage, etc.  
+  - **Table-related**: experimental metrics and performance values.  
+  - **Chart-related**: visual results from bar, line, and pie charts.  
 
 ## 📊 Dataset Statistics
 
